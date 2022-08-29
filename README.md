@@ -1,10 +1,16 @@
 # ICS Generator
 
 run the script to generate of ics file
-`rake ics:generate`
+```
+rake ics:generate
+```
 
 directory for schedule
-`./ics_generator/data`
+```
+./ics_generator/data
+```
 
 directory for generated files
-`./events`
+```
+./events
+```
