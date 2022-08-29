@@ -4,8 +4,7 @@ require 'time'
 module IcsGenerator
   class Service
     def self.run
-      data = IcsGenerator::Data::ArsenalPremierLeague2223
-      # data = IcsGenerator::Data::Formula22
+      data = IcsGenerator::Data::ArsenalEuropaLeague22
 
       cal = Icalendar::Calendar.new
       cal.add_timezone data::TIMEZONE
